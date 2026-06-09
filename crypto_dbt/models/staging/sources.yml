@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: crypto_raw
+    project: crypto-pipeline-498217
+    dataset: crypto_raw
+    tables:
+      - name: raw_prices
