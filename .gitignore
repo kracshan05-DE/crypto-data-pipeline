@@ -1,2 +1,21 @@
-data/
-*.json
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.db-shm
+airflow/airflow.db-wal
+airflow/airflow.cfg
+airflow/simple_auth_manager_passwords.json.generated
+
+# dbt
+crypto_dbt/logs/
+crypto_dbt/target/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS
+.DS_Store
